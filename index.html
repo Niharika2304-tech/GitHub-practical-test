@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Home -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <p class="tag">✦ MY PERSONAL PORTFOLIO</p>
+            <h1>Hi, I'm <span>Niharika</span></h1>
+            <h2>Computer Science Engineering Student</h2>
+            <p class="intro">
+                Exploring technology, learning new skills and
+                turning ideas into creative projects.
+            </p>
+
+            <a href="#project" class="btn">View My Projects ↗</a>
+            <a href="#about" class="btn btn-outline">About Me</a>
+        </div>
+
+        <div class="hero-card">
+            <div class="circle">✦</div>
+            <h2>Hello, Welcome!</h2>
+            <p>Curious mind. Creative ideas. Continuous learning.</p>
+            <div class="small-tag">💻 Student Developer</div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section">
+        <p class="tag">GET TO KNOW ME</p>
+        <h2 class="section-title">About Me</h2>
+
+        <div class="about-card">
+            <p>
+                I am a Computer Science Engineering student who enjoys
+                exploring technology and learning new things.
+                I am currently developing my skills in web development
+                and programming while working on creative projects.
+            </p>
+        </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <p class="tag">WHAT I AM LEARNING</p>
+        <h2 class="section-title">My Skills</h2>
+
+        <div class="skills-container">
+            <div class="skill-card">
+                <span>🌐</span>
+                <h3>HTML</h3>
+                <p>Webpage Structure</p>
+            </div>
+
+            <div class="skill-card">
+                <span>🎨</span>
+                <h3>CSS</h3>
+                <p>Design & Styling</p>
+            </div>
+
+            <div class="skill-card">
+                <span>⚡</span>
+                <h3>JavaScript</h3>
+                <p>Basic Interactions</p>
+            </div>
+
+            <div class="skill-card">
+                <span>💻</span>
+                <h3>C</h3>
+                <p>Programming Basics</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="project" class="section">
+        <p class="tag">WHAT I HAVE CREATED</p>
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-container">
+            <div class="project-card">
+                <div class="project-icon">🔮</div>
+                <h3>Astrology Prediction Website</h3>
+                <p>
+                    A website designed to provide astrology-based
+                    predictions using user details and selected interests.
+                </p>
+                <span class="project-label">HTML · CSS · JavaScript</span>
+            </div>
+
+            <div class="project-card">
+                <div class="project-icon">🍲</div>
+                <h3>Pett Pooja</h3>
+                <p>
+                    An AI recipe generator that helps users discover
+                    recipes using ingredients available at home.
+                </p>
+                <span class="project-label">HTML · CSS · JavaScript</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section contact-section">
+        <p class="tag">LET'S CONNECT</p>
+        <h2 class="section-title">Have a great idea?</h2>
+        <p class="contact-text">
+            Thank you for visiting my portfolio.
+            Let's keep learning and creating!
+        </p>
+
+        <button onclick="showMessage()">Say Hello ✨</button>
+        <p id="message"></p>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -298,3 +298,26 @@ button:hover {
         width: 145px;
     }
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #fff;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #8b4513;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #f28c28;
+}
